@@ -13,8 +13,8 @@ class Header extends React.Component {
 
   componentDidMount() {
     const url = window.location.pathname;
-    const businessId = url.slice(1, url.length - 1);
-    fetchBusinessInfo(1, (err, businessInfo) => {
+    const businessId = url.slice(1, url.length - 1) || 1;
+    fetchBusinessInfo(businessId, (err, businessInfo) => {
       if (err) {
         throw (err);
       } else {
