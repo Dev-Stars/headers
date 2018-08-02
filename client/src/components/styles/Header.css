@@ -73,6 +73,13 @@
 .headerBottomOverlay {
   justify-content: center;
   display: flex;
+  position: relative;
+}
+.buttonOverlay {
+  position: absolute;
+  right: 0px;
+  top:50%;
+  margin-top: -8px;
 }
 .homeControl {
   margin:0 auto;
@@ -135,7 +142,9 @@
 }
 .headerBottom {
   display: flex;
+  position: relative;
   margin: 0 auto;
+  width: 989.89px;
 }
 .businessOverview {
   margin-right: 260px;
