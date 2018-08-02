@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build-dev": "webpack -d --watch",
+    "build": "webpack --config webpack.prod.js",
+    "server-dev": "nodemon ./server/index.js",
+    "start": "node ./server/index.js",
+    "database": "mysql -u root < database/schema.sql",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

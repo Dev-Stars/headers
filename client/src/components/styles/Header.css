@@ -1,0 +1,234 @@
+.header {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.headerTop {
+  display: block;
+}
+.searchBar {
+  display: flex;
+  margin-right: 25px;
+}
+.findBar {
+  background-color: white;
+  border-radius: 5px 0 0 5px;
+  height: 36px;
+  width: 688px;
+  padding: 12px, 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.findText , .searchText {
+  margin: auto 0;
+  display: inline-flex;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 280px;
+}
+.findText {
+  border-right: #666;
+  border-right-width: 1px;
+  border-right-style: solid;  
+}
+.searchText {
+  left: 45%;
+}
+.searchIcon , .signUp{
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #bd1f1f;
+  padding: 0 15px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.signUp {
+  padding: 9px 30px;
+  color: white;
+  font-weight: bold;
+}
+.searchIcon > img {
+  margin: auto;
+  display: inline;
+  width:24px;
+  height: 24px;
+}
+
+.headerBG {
+  background: #d32323 url(https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/c146b0884f6a/assets/img/structural/header_stars.png) no-repeat center; 
+  justify-content: center;
+  display: flex;
+}
+
+.controlGroupBG {
+  justify-content: center;
+  display: flex;
+  background-color: #bd1f1f;
+}
+.headerBottomOverlay {
+  justify-content: center;
+  display: flex;
+}
+.homeControl {
+  margin:0 auto;
+  border:0;
+  padding: 12px 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.controlGroup {
+  margin:0 auto;
+  color: white;
+  display: flex;
+  font-weight: bold;
+}
+
+.buttonTop {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 26px;
+}
+.buttonTop > img{
+  width: 15px;
+  height: 15px;
+  margin: auto;
+  padding-right: 5px;
+  display: inline;
+}
+.buttonTop > span{
+  margin: auto;
+  display: inline;
+}
+.logo {
+  margin-right: 30px;
+}
+.logo > img {
+  width: 80px;
+  height: 40px;
+}
+
+.menuBar {
+  padding: 4px 12px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+.userBar{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 190px;
+}
+.userBar > span{
+  margin: auto;
+  display: inline; 
+  margin-right: 40px; 
+}
+.headerBottom {
+  display: flex;
+  margin: 0 auto;
+}
+.businessOverview {
+  margin-right: 260px;
+  font-size: 16px;
+}
+.businessStar{
+  position:relative;
+  margin-right: 7px;
+}
+.businessStat{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  color: #666;
+}
+.businessMoney {
+  margin-right: 5px;
+}
+.businessCategory{
+  display: flex;
+  align-items: center;
+}
+.logo, .clickText, .buttonTop {
+  cursor: pointer;
+}
+.buttonOverlay{
+  display:flex;
+  align-items: center;
+}
+.buttonGrey {
+  position: relative;
+  margin: auto;
+  cursor: pointer;
+  padding: 5px 8px;
+  border: 1px solid;
+  font-weight: bold;
+  text-align: center;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  border-color: #ccc;
+  color: #666;
+  background-color: #f7f7f7;
+  background: linear-gradient(#fff, #f7f7f7);
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.buttonGrey > img{
+  padding: auto;
+  width: 18px;
+  height: 18px;
+  margin-right: 3px;
+}
+
+.buttonRed {
+  color: white;
+  border-color: #8d0005;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  background-color: #c91400;
+  background: linear-gradient(#d90007, #c91400);
+  vertical-align: middle;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  font-size: 14px;
+  line-height: 1.28571em;
+  align-items: center;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 20px;
+  margin-right: 12px;
+}
+
+.starIcon {
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.buttonRed:hover {
+  background-color: #ed0008;
+  background: linear-gradient(#ed0008, #dd1600);
+}
+.buttonGrey:hover {
+  background-color: #ececec;
+  background: #ececec;
+}
+.searchIcon:hover, .signUp:hover {
+  background-color: #551013
+}
