@@ -11,7 +11,6 @@
 }
 .searchBar {
   display: flex;
-  margin-right: 25px;
 }
 .findBar {
   background-color: white;
@@ -69,6 +68,7 @@
   justify-content: center;
   display: flex;
   background-color: #bd1f1f;
+  height: 27.2px;
 }
 .headerBottomOverlay {
   justify-content: center;
@@ -82,25 +82,30 @@
   margin-top: -8px;
 }
 .homeControl {
+  width: 960px;
   margin:0 auto;
   border:0;
   padding: 12px 0;
   display: flex;
   position: relative;
   align-items: center;
+  justify-content: space-between;
 }
 .controlGroup {
   margin:0 auto;
   color: white;
   display: flex;
   font-weight: bold;
+  width: 960px;
+  justify-content: space-between;
 }
 
 .buttonTop {
   display: flex;
   align-items: center;
   position: relative;
-  margin-right: 26px;
+  height: 100%;
+  padding: 0 15px;
 }
 .buttonTop > img{
   width: 15px;
@@ -113,38 +118,36 @@
   margin: auto;
   display: inline;
 }
-.logo {
-  margin-right: 30px;
-}
+
 .logo > img {
   width: 80px;
   height: 40px;
 }
 
 .menuBar {
-  padding: 4px 12px;
   display: flex;
   position: relative;
   align-items: center;
-  margin-left: 40px;
-  margin-right: 50px;
+  margin-right: 30px;
+  margin-left: -16px;
 }
+
 .userBar{
   display: flex;
-  align-items: center;
   position: relative;
-  margin-right: 190px;
+  align-items: center;
+  margin-right: 180px;
 }
 .userBar > span{
   margin: auto;
   display: inline; 
-  margin-right: 40px; 
 }
 .headerBottom {
   display: flex;
   position: relative;
   margin: 0 auto;
-  width: 989.89px;
+  width: 960px;
+  justify-content: space-between;
 }
 .businessOverview {
   margin-right: 260px;
@@ -166,6 +169,11 @@
 .businessCategory{
   display: flex;
   align-items: center;
+}
+.clickText {
+  line-height: 100%;
+  padding: 6px 15px;
+  text-align: center;
 }
 .logo, .clickText, .buttonTop {
   cursor: pointer;
@@ -238,6 +246,6 @@
   background-color: #ececec;
   background: #ececec;
 }
-.searchIcon:hover, .signUp:hover {
+.searchIcon:hover, .signUp:hover, .buttonTop:hover, .clickText:hover {
   background-color: #551013
 }
